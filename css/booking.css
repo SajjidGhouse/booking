@@ -1,0 +1,157 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+   }
+   body{
+       background-image: url(../images/bookback.jpeg);
+       background-size: cover;
+       
+   }
+   /*Navigation bar*/
+   header *{
+       margin: 0;  
+       padding: 0;
+       box-sizing: border-box;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+       text-transform: capitalize;
+       text-decoration: none;
+       position: block;
+   }
+   header{
+       position: static;    
+       top: 0;
+       left: 0;
+       right: 0;
+       padding: 5px 5% 0px 0px;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+       z-index: 1000;
+   }
+   header .logo{
+       width: 200px;
+       height: 200px;
+   }
+   header .logo img{
+       width: 100%;
+       height: 100%;
+   }
+   header nav ul{
+       list-style: none;
+   }
+   header nav ul li{
+       display: inline-block;
+       margin-left: 50px;
+       position: relative;
+   }
+   header nav ul li a{
+       font-size: 18px;
+       font-weight: 500;
+       color: #ffffff;
+       display: block;
+   }
+   header nav ul li a:hover{
+       color: rgb(0, 0, 0);
+       border-top: #000 3px solid;  
+   }
+   form{
+    position: relative;
+    height: fit-content;
+    text-align: center;
+    background-color:rgba(250, 250, 250, 0.553);
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #eceef0; /* Light blue table borders */
+    padding: 8px;
+    text-align: left;
+    font-weight: bold;
+    width: 250px;
+}
+
+th {
+    background-color: #e0f0ff; /* Light blue table header background */
+}
+
+.booking{
+    display: flex;
+    justify-content: space-evenly;
+}
+form h1{
+    text-align: center;
+    margin: 5 0 5 0;
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.4em;
+}
+form div{
+    margin: 20px;
+}
+button{
+    background-color: rgb(172, 53, 53);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: .8em;
+    margin: 10px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+label{
+ font-weight: bold;  
+ margin: .8em; 
+}
+.check_in, .check_out{
+    margin: 0.8em;
+}
+input, select{
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    outline: none;
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 0.8em;
+    margin: 10px 10px;
+    border-radius: 10px;
+}
+.Ex_req{
+    text-align: left;
+    margin: 5% 30% ;
+}
+.loyalty input{
+    width: 30px;
+}
+
+
+#menu{
+    display: none;
+}
+header label{
+    font-size: 20px;
+    color: white; 
+    cursor: pointer;
+    display: none;
+ }
+ footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    
+ }
+    footer p{
+        margin: 0;
+    }
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+   
